@@ -8,13 +8,17 @@
     <link href="StyleSheet.css" rel="stylesheet" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
-
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
+    <header>
+        <img src="study-buddy.png" id="logo"/>
+        <div id="menu-punkt">
+            <img src="menu-punkt.png" />
+        </div>
+    </header>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
         </asp:ContentPlaceHolder>
     </div>
     </form>
