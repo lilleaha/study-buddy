@@ -14,7 +14,10 @@ public partial class _Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        SqlConnection con = new SqlConnection();
-        con.ConnectionString = System.Configuration.
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["DatabaseConnectionstring1"].ToString());
+        SqlCommand cmd = new SqlCommand();
+
+        cmd.CommandText = "SELECT * FROM Users";
+
     }
 }
