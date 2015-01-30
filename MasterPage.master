@@ -13,10 +13,8 @@
     <form id="form1" runat="server">
     <div>
     <header>
-        <img src="study-buddy.png" id="logo"/>
-        <div id="menu-punkt">
-            <img src="menu-punkt.png" />
-        </div>
+        <img src="photos/study-buddy.png" id="logo"/>
+            <img src="photos/menu-punkt.png" id="menu-punkt" />
     </header>
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>

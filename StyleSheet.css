@@ -1,16 +1,28 @@
-﻿body {
+﻿body, html {
     width:100%;
+    padding: 0;
+    margin: 0;
 }
 header{
-    height:100px;
+    height:70px;
+    margin:10px;
 }
 #logo{
     width:80%;
+    max-width:406px;
     float:left;
+    max-height:70px;
 }
 #menu-punkt {
-    width: 10%;
-    float: left;
+    float: right;
+    height:70px;
+    width:83px;
+}
+@media only screen and (max-width : 434px) {
+    #menu-punkt {
+        height:auto;
+        width:20%;
+    }
 }
 #search-link{
     color:#ffffff;
